@@ -1,0 +1,5 @@
+{% macro addTrace(txt) %}
+    {% if txt %}
+        {{" - " + txt}}
+    {% endif %}
+{% endmacro %}

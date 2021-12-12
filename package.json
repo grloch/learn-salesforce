@@ -1,0 +1,30 @@
+{
+  "name": "learn-salesforce",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/grloch/learn-salesforce/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grloch/learn-salesforce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grloch/learn-salesforce/issues"
+  },
+  "homepage": "https://github.com/grloch/learn-salesforce#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^5.0.0",
+    "nunjucks": "^3.2.3",
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "gulp-data": "^1.3.1"
+  }
+}

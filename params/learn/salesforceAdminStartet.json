@@ -1,0 +1,50 @@
+{
+  "id": "salesforceStarter",
+  "name": "Salesforce Starter",
+  "intro": [
+    "Essa lista de Trailheads, artigos e Trailmixes é indicada para quem não conhece nada de Salesforce ou mesmo o que é um CRM"
+  ],
+  "itens": [
+    {
+      "name": "O começo",
+      "intro": "",
+      "itens": [
+        {
+          "name": "Salesforce CRM",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+        },
+        {
+          "name": "Salesforce CRM",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+        },
+        {
+          "name": "Salesforce CRM",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+        },
+        {
+          "name": "Salesforce CRM",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+        },
+        {
+          "name": "Salesforce CRM",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+        },
+        {
+          "name": "Salesforce CRM", 
+          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+        },
+        {
+          "name": "Salesforce CRM",
+          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+        }
+      ]
+    }
+  ]
+}

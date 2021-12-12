@@ -1,0 +1,14 @@
+{# itens:[{type, name, url, img}] #}
+{% macro learnList(itens) %}
+    <div class="container-fluid">
+        <div class="row">
+            {% for item in itens %}
+                <div class="col-4">
+                    <p>{{item.name}}</p>
+                    <img src="{{item.img}}" alt="">
+                    <a href="{{item.url}}" target="_blank">access</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endmacro %}
