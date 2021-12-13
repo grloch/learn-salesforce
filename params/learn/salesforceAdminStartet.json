@@ -2,47 +2,90 @@
   "id": "salesforceStarter",
   "name": "Salesforce Starter",
   "intro": [
-    "Essa lista de Trailheads, artigos e Trailmixes é indicada para quem não conhece nada de Salesforce ou mesmo o que é um CRM"
+    "Essa lista de Trailheads, artigos e Trailmixes é indicada para quem:",
+    "- Nunca teve contato com um CRM",
+    "- Teve pouco ou nenhum contato com Salesforce",
+    "- Tem contato com Salesforce e espera se aprofundar mais"
   ],
   "itens": [
     {
+      "id": "basicStarter",
       "name": "O começo",
       "intro": "",
       "itens": [
         {
           "name": "Salesforce CRM",
           "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
-          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png",
+          "id": "lex_implementation_basics"
         },
         {
-          "name": "Salesforce CRM",
-          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
-          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+          "name": "Trailhead e Trailhead Community",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/trailhead_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/trailhead_basics/11592ff48bc3b35bcd9945e6bde11319_badge.png",
+          "id": "trailhead_basics"
         },
         {
-          "name": "Salesforce CRM",
-          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
-          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+          "name": "Gerenciamento do Trailhead Playground",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/trailhead_playground_management",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/trailhead_playground_management/2f5d5c1bfd282031b928027dc61ae51e_badge.png",
+          "id": "trailhead_playground_management"
         },
         {
-          "name": "Salesforce CRM",
-          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
-          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+          "name": "Noções básicas do usuário do Salesforce",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/lex_salesforce_basics",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_salesforce_basics/67daab1ff0f87c9ee78c3e8681193b43_badge.png",
+          "id": "lex_salesforce_basics"
         },
         {
-          "name": "Salesforce CRM",
-          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
-          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+          "name": "Noções básicas da Salesforce Platform",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/starting_force_com",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/starting_force_com/d6c87e2bd754dddc3116963498852e3a_badge.png",
+          "id": "starting_force_com"
         },
         {
-          "name": "Salesforce CRM", 
-          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
-          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+          "name": "Configurações da organização da empresa",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/company_wide_org_settings",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/company_wide_org_settings/a398554a847393bf4670d08a986adc45_badge.png",
+          "id": "company_wide_org_settings"
+        }
+      ]
+    },
+    {
+      "id": "dataSec",
+      "name": "Segurança de dados",
+      "intro": "Itens que falam a respeito de como tratar seus dados no Salesforce",
+      "itens": [
+        {
+          "name": "Segurança de dados",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/data_security",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/data_security/ee6440dbd70febb184ba0a8f7fcd70eb_badge.png",
+          "id": "data_security"
+        }
+      ]
+    },
+    {
+      "id": "chatter",
+      "name": "Chatter ",
+      "intro": "",
+      "itens": [
+        {
+          "name": "Administração do Chatter para o Lightning Experience",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/lex_implementation_chatter",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_chatter/7582bfb8dcab3820e5856a581aedc742_badge.png",
+          "id": "lex_implementation_chatter"
         },
         {
-          "name": "Salesforce CRM",
-          "url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_basics",
-          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_implementation_basics/56b5a2cb9fb731dbfe6b5b88cd855775_badge.png"
+          "name": "Contas e contatos para Lightning Experience",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/accounts_contacts_lightning_experience",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/accounts_contacts_lightning_experience/b84df67136a004253f0624ee68e0c9f2_badge.png",
+          "id": "accounts_contacts_lightning_experience"
+        },
+        {
+          "name": "Leads e oportunidades para o Lightning Experience",
+          "url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/leads_opportunities_lightning_experience",
+          "img": "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/leads_opportunities_lightning_experience/59b5454bc337616e4a0ac221f6af4f39_badge.png",
+          "id": "leads_opportunities_lightning_experience"
         }
       ]
     }

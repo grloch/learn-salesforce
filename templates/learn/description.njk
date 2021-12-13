@@ -1,0 +1,15 @@
+<div class="container-fluid total-learn-progress" id="{{currentLearnItem.id}}">
+    <div class="progress col-12">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            {% for introItem in currentLearnItem.intro %}
+                <p>{{introItem | safe}}</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>

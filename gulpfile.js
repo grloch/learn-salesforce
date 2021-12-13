@@ -2,15 +2,20 @@ const gulp = require("gulp"),
   nunjucksRender = require("gulp-nunjucks-render"),
   Fs = require("fs"),
   sass = require("gulp-sass")(require("sass")),
-  data = require("gulp-data");
+  data = require("gulp-data"),
+  concat = require("gulp-concat"),
+  rename = require("gulp-rename"),
+  uglify = require("gulp-uglify");
 
 function buildPages() {
   return gulp
     .src(["pages/**/*.+(html|njk)"])
-    .pipe(nunjucksRender({
-      path: ["templates"],
-      data:  require("./params")
-    }))
+    .pipe(
+      nunjucksRender({
+        path: ["templates"],
+        data: require("./params"),
+      })
+    )
     .pipe(gulp.dest("dist"));
 }
 
@@ -29,6 +34,11 @@ function buildJs() {
   gulp
     .src("./assets/bootstrap/bootstrap-5.1.3-dist/js/bootstrap.min.js")
     .pipe(gulp.dest("./dist"));
+
+  return gulp
+    .src(["./assets/scripts/**/*.js"])
+    .pipe(concat("scripts.js"))
+    .pipe(gulp.dest("./dist"));
 }
 
 gulp.task("build-pages", buildPages);
@@ -42,6 +52,7 @@ gulp.task("default", async () => {
   console.log("executing buildJs");
   buildJs();
 
+  gulp.watch("./assets/scripts/**/*.js", gulp.series(["build-js"]));
   gulp.watch("./assets/scss/**/*.scss", gulp.series(["build-style"]));
   gulp.watch(
     [

@@ -3,55 +3,16 @@
 {% extends "base.njk" %}
 
 {% block content %}
+  {% include "learn/description.njk" %}
 
-  <span class="h3">{{pageTitle}}</span>
-  <div class="progress col-12">
-    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>
-  {% for introItem in currentLearnItem.intro %}
-    <p>{{introItem | safe}}</p>
-  {% endfor %}
+  <div class="container">
 
-  {% for itemGroup in currentLearnItem.itens %}
-    <div class="row g-2">
+    {% for learnGroup in currentLearnItem.itens %}
+      {% include "learn/group.njk" %}
+    {% endfor %}
 
-      <div class="col-12">
-        <div class="card col-md-12">
-          <div class="card-body">
-            <h2>O básico</h2>
-            <div class="progress col-12">
-              <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      {% for learnItem in itemGroup.itens %}
-        <div class="col-md-4 learn-item">
-          <div class="card col-md-12">
-            <div class="card-body">
-              <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch">
-              </div>
-              <img src="{{learnItem.img}}" alt="{{learnItem.name}}" class="card-img-top">
-              {{learnItem.name}}:
-
-              <a href="{{learnItem.url}}" target="_blank" class="btn btn-primary">Go to Trailhead</a>
-
-            </div>
-          </div>
-        </div>
-
-      {% endfor %}
-
-    </div>
-  {% endfor %}
-
-  DUMP:
-  <pre>{{currentlearnitem |  dump(2)}}</pre>
-
-  {# <span class="h3">{{params.list.starterAdmin.name}}</span>
+    {# <span class="h3">{{params.list.starterAdmin.name}}</span>
   {{ listing.learnList(params.list.starterAdmin.itens) }} #}
-
+  </div>
+  {# DUMP:<pre>{{currentlearnitem |  dump(2)}}</pre> #}
 {% endblock %}
