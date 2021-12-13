@@ -16,29 +16,29 @@ function buildPages() {
         data: require("./params"),
       })
     )
-    .pipe(gulp.dest("dist"));
+    .pipe(gulp.dest("./docs"));
 }
 
 function buildStyle() {
   gulp
     .src("./assets/bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css")
-    .pipe(gulp.dest("./dist"));
+    .pipe(gulp.dest("./docs"));
 
   return gulp
     .src("./assets/scss/index.scss")
     .pipe(sass().on("error", sass.logError))
-    .pipe(gulp.dest("./dist"));
+    .pipe(gulp.dest("./docs"));
 }
 
 function buildJs() {
   gulp
     .src("./assets/bootstrap/bootstrap-5.1.3-dist/js/bootstrap.min.js")
-    .pipe(gulp.dest("./dist"));
+    .pipe(gulp.dest("./docs"));
 
   return gulp
     .src(["./assets/scripts/**/*.js"])
     .pipe(concat("scripts.js"))
-    .pipe(gulp.dest("./dist"));
+    .pipe(gulp.dest("./docs"));
 }
 
 gulp.task("build-pages", buildPages);
